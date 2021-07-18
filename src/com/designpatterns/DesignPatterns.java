@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-public class DesignPatterns {
+public class DesignPatterns { 
 
 	/**
 	 * It is some of the best practices which are necessary for 
