@@ -46,7 +46,11 @@ public class BalancedParenthesis {
 						{
 							System.out.println(ch);
 							stack.pop();
+						}else {
+							System.out.println("Not balanced");
+							return;
 						}
+				
 					} catch (Exception e) {
 						System.out.println("not balanced");
 						System.exit(0);

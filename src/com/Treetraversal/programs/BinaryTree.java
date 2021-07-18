@@ -9,13 +9,16 @@ public class BinaryTree {
 	 * each element in a binary tree can have only 2 children, we typically name
 	 * them the left and right child.
 	 * 
-	 * Maximum number of nodes in a binary tree of height ‘h’ is 2^h – 1.
+	 * Maximum number of nodes in a binary tree of height h is 2^h - 1.
 	 * 
-	 * Count of height starts from 1 then 2^h – 1. Count of height starts from 0
-	 * then 2^h+1 – 1. where h is the height
+	 * Count of height starts from 1 then 2^h - 1. Count of height starts from 0
+	 * then 2^h+1 - 1. where h is the height
 	 * 
 	 * In a Binary Tree with N nodes, minimum possible height or minimum number of
 	 * levels is Log2(N+1)
+	 * 
+	 * 
+	 * Level order is level by level i.e taking all nodes at level 1 then level2 and so on.
 	 */
 
 }

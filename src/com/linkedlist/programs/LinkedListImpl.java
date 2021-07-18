@@ -37,7 +37,7 @@ class LinkedList {
 			head = node;
 		else {
 			Node n = head;
-			while (n.next != null) {
+			while (n.next != null) {  //n.next gives the last node.
 				n = n.next;
 			}
 			n.next = node;

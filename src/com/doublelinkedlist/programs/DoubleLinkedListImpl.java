@@ -4,17 +4,24 @@ class Node {
 	int data;
 	Node next;
 	Node prev;
+
+	Node(int data) {
+		this.data = data;
+		this.next = null;
+		this.prev = null;
+	}
 }
 
 class DoubleLinkedList {
 	Node head;
-
+	
+	/**
+	 * 
+	 * @param data
+	 */
 	void insertStart(int data) {
 
-		Node node = new Node();
-		node.data = data;
-		node.next = null;
-		node.prev = null;
+		Node node = new Node(data);
 
 		node.next = head;
 		node.prev = null;
@@ -27,11 +34,7 @@ class DoubleLinkedList {
 	}
 
 	public void insertAt(Node n, int data) {
-		Node node = new Node();
-
-		node.data = data;
-		node.next = null;
-		node.prev = null;
+		Node node = new Node(data);//Node to be inserted after Node n.
 
 		node.next = n.next;
 		n.next = node;
