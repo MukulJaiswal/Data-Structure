@@ -21,7 +21,7 @@ public class PriorityQueueImpl {
 		pq.add(45);
 		pq.add(1);
 
-		// peek() returns the root element with deleting it.
+		// peek() returns the root element without deleting it.
 		System.out.println(pq.peek());
 
 		Object[] list = pq.toArray();
